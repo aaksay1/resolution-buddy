@@ -40,7 +40,9 @@ export default function Home() {
           perfect match.
         </p>
         <Button className="bg-white text-teal-500 font-bold px-6 py-3 rounded-full hover:bg-teal-100">
-          Get Started
+          <a href="/sign-up-in">
+            Get Started
+          </a>
         </Button>
       </section>
 
@@ -85,7 +87,9 @@ export default function Home() {
           Join Needle today and start connecting with sellers instantly.
         </p>
         <Button className="bg-white text-teal-600 font-bold px-6 py-3 rounded-full hover:bg-teal-100">
-          Sign Up Now
+          <a href="/sign-up-in">
+            Sign Up Now
+          </a>
         </Button>
       </section>
 
